@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS "my_table" (
+  "Row ID" INT,
+  "Order ID" VARCHAR(255),
+  "Order Date" VARCHAR(255),
+  "Ship Date" VARCHAR(255),
+  "Ship Mode" VARCHAR(255),
+  "Customer ID" VARCHAR(255),
+  "Customer Name" VARCHAR(255),
+  "Segment" VARCHAR(255),
+  "Country" VARCHAR(255),
+  "City" VARCHAR(255),
+  "State" VARCHAR(255),
+  "Postal Code" INT,
+  "Region" VARCHAR(255),
+  "Product ID" VARCHAR(255),
+  "Category" VARCHAR(255),
+  "Sub-Category" VARCHAR(255),
+  "Product Name" VARCHAR(255),
+  "Sales" DECIMAL(18, 5),
+  "Quantity" INT,
+  "Discount" DECIMAL(18, 5),
+  "Profit" DECIMAL(18, 5)
+);
